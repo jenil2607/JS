@@ -1,1 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: rgb(221, 221, 255);
+    padding-top: 50px;
+    table {
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        tr {
+            td {
+                border: 2px solid;
+                width: 100px;
+            }
+        }
+    }
+}
+
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: blue;
+}
